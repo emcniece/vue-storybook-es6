@@ -57,7 +57,6 @@ export default {
 <style>
 .slide {
   padding: 3em 0;
-
   background: rgba(0, 0, 0, 0.1);
 }
 </style>
