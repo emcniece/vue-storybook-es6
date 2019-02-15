@@ -47,7 +47,7 @@ export default {
     ]
   }),
   methods: {
-    addSlide: function(e) {
+    addSlide: function() {
       this.slides.push({ text: `Slide ${this.slides.length + 1}` });
     }
   }
