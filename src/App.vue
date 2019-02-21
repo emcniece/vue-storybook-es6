@@ -23,7 +23,17 @@
 </template>
 
 <script>
+import {
+  VApp,
+  VToolbar,
+  VToolbarTitle,
+  VSpacer,
+  VContent,
+  VBtn
+} from "vuetify/lib";
+
 export default {
+  components: { VApp, VToolbar, VToolbarTitle, VSpacer, VContent, VBtn },
   name: "App",
   data() {
     return {

@@ -33,9 +33,10 @@
 
 <script>
 import { Carousel, Slide } from "vue-carousel";
+import { VContainer, VLayout, VFlex, VImg, VBtn } from "vuetify/lib";
 
 export default {
-  components: { Carousel, Slide },
+  components: { VContainer, VLayout, VFlex, VImg, VBtn, Carousel, Slide },
   data: () => ({
     slides: [
       {
